@@ -1,0 +1,50 @@
+##DV Project 1
+
+1) I created a dataframe from the titanic database
+
+```{r}
+source("../01 Data/Titanic Analysis.R", echo = TRUE)
+```
+
+2) I created an interesting plot using the data in the dataframe
+
+
+3) I created the first plot
+
+```{r}
+source("../02 Visualizations/Plot1.R", echo = TRUE)
+```
+
+This plot shows how the distribution of the fare the patrons had to pay to get on the Titanic based on there age and sex.
+
+4) I created the second plot
+
+```{r}
+source("../02 Visualizations/Plot2.R", echo= TRUE)
+```
+
+This plot shows the same information as the previous plot, but does not include on the patrons that has sex as "NULL"
+
+5) I created the third plot
+
+```{r}
+source("../02 Visualizations/Plot3.R", echo= TRUE)
+```
+
+This shows the amount the patrons had to pay based on sex and whether they did or did not survive.
+
+6) created the fourth plot
+
+```{r}
+source("../02 Visualizations/Plot4.R", echo= TRUE)
+```
+
+This graph shows the same information as the previous graph, but breaksdown the patrons based on which class they were in as well.
+
+7) created the fifth plot
+
+```{r}
+source("../02 Visualizations/Plot5.R", echo= TRUE)
+```
+
+This graph shows the information as the previous graph, but only for kids age 10 or younger
